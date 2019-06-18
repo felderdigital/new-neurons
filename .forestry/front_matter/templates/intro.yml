@@ -6,9 +6,9 @@ display_field: heading
 fields:
 - type: text
   name: intro_heading
-  label: Intro Heading
+  label: Intro Title
   description:
 - type: textarea
   name: intro_paragraph
-  label: Intro Paragraph
+  label: Intro Text
   description:

@@ -1,0 +1,30 @@
+---
+label: Column Left
+hide_body: true
+is_partial: true
+display_field: heading
+fields:
+- type: text
+  name: bio_1
+  label: Bio Title
+  description:
+- type: text
+  name: bio_2
+  label: Bio Subtitle
+  description:
+- type: textarea
+  name: quote
+  label: Quote
+  description:
+- type: text
+  name: about_title
+  label: About Title
+  description:
+- type: textarea
+  name: about_text
+  label: About Text
+  description:
+- type: text
+  name: youtube_title
+  label: YouTube Title
+  description:

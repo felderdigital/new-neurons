@@ -1,0 +1,66 @@
+---
+label: Column Right
+hide_body: true
+is_partial: true
+display_field: heading
+fields:
+- type: text
+  name: r1_title
+  label: R1 Title
+  description:
+- type: textarea
+  name: r1_text
+  label: R1 Text
+  description:
+- type: text
+  name: r2_title
+  label: R2 Title
+  description:
+- type: textarea
+  name: r2_text
+  label: R2 Text
+  description:
+- type: text
+  name: r3_title
+  label: R3 Title
+  description:
+- type: textarea
+  name: r3_text
+  label: R3 Text
+  description:
+- type: text
+  name: r4_title
+  label: R4 Title
+  description:
+- type: textarea
+  name: r4_text
+  label: R4 Text
+  description:
+- type: text
+  name: r5_title
+  label: R5 Title
+  description:
+- type: textarea
+  name: r5_text
+  label: R5 Text
+  description:
+- type: textarea
+  name: list_1
+  label: List 1
+  description:
+- type: textarea
+  name: list_2
+  label: List 2
+  description:
+- type: textarea
+  name: list_3
+  label: List 3
+  description:
+- type: textarea
+  name: list_4
+  label: List 4
+  description:
+- type: textarea
+  name: list_5
+  label: List 5
+  description:
