@@ -1,0 +1,16 @@
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="column column-40">
+				<img class="bio" src="{{ $.Site.BaseURL }}/img/content/bio-circle.png" />
+				{{- with .Params.bio_1 -}}<p class="bio1">{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.bio_2 -}}<p class="bio2">{{ markdownify . }}</p>{{- end -}}
+				<img class="quote-before" src="{{ $.Site.BaseURL }}/img/content/quote-before.png" />
+				{{- with .Params.quote -}}<blockquote>{{ markdownify . }}</blockquote>{{- end -}}
+				<img class="quote-after float-right" src="{{ $.Site.BaseURL }}/img/content/quote-after.png" />
+				{{- with .Params.about_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.about_text -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.youtube_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				<iframe width="400" height="225" src="https://www.youtube.com/embed/PjgPS91Opbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="column column-10"></div>

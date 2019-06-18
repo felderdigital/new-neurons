@@ -1,0 +1,15 @@
+<section>
+	<div class="container-fluid">
+		<div class="row row-no-padding">
+			<div class="column column-40 orange">
+				<div class="orange-intro">
+				{{- with .Params.intro_heading -}}<h3 class="intro-text">{{ markdownify . }}</h3>{{- end -}}
+				{{- with .Params.intro_paragraph -}}<p class="p-small">{{ markdownify . }}</p>{{- end -}}
+				</div>
+			</div>
+			<div class="column column-60">
+				<img class="float-right display-desktop" src="{{ $.Site.BaseURL }}/img/content/surgery-table.jpg" />
+			</div>
+		</div>
+	</div>
+</section>

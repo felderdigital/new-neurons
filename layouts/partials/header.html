@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	{{ .Hugo.Generator }}{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300">
+	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+	<link rel="stylesheet" href="{{ "/css/site.css" | relURL }}">
+	<link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
+	<link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+	<link rel="canonical" href="{{ .Permalink }}">
+	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+</head>
+<body>
+<header class="header">
+	<div class="container-fluid">
+		<div class="row row-no-padding">
+			<div class="column column-15">
+				<img class="logo" src="{{ $.Site.BaseURL }}/img/content/logo.png" />
+			</div>
+			<div class="column column-50 title">
+				<h1><em><span class="blue-text">New</span> <span class="orange-text">Neurons</span></em> <span class="title-adjust">Neurosurgery Institute</span></h1>
+				<h2>Compassion, Expertise, Innovation</h2>
+			</div>
+			<div class="column column-35">
+				<p class="phone"><a href="tel:973.718.3360">973.718.3360</a></p>
+			</div>
+		</div>
+	</div>
+</header>

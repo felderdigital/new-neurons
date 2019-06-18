@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<main class="home">
+{{- range .Params.blocks -}}
+	{{- if eq .template "intro" -}}{{ partial "blocks/intro" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "column-left" -}}{{ partial "blocks/column-left" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "column-right" -}}{{ partial "blocks/column-right" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "contact" -}}{{ partial "blocks/contact" (dict "Params" .) }}{{- end -}}
+{{- end -}}
+</main>
+{{ partial "footer.html" . }}

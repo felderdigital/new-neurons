@@ -1,0 +1,22 @@
+			<div class="column column-40">
+				{{- with .Params.r1_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.r1_text -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.r2_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.r2_text -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.r3_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.r3_text -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.r4_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.r4_text -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.r5_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.r5_text -}}<p>{{ markdownify . }}</p>{{- end -}}
+				<ul>
+					{{- with .Params.list_1 -}}<li>{{ markdownify . }}</li>{{- end -}}
+					{{- with .Params.list_2 -}}<li>{{ markdownify . }}</li>{{- end -}}
+					{{- with .Params.list_3 -}}<li>{{ markdownify . }}</li>{{- end -}}
+					{{- with .Params.list_4 -}}<li>{{ markdownify . }}</li>{{- end -}}
+					{{- with .Params.list_5 -}}<li>{{ markdownify . }}</li>{{- end -}}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

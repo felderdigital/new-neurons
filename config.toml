@@ -1,0 +1,14 @@
+baseurl = ""
+# baseurl = "https://felderdigital.com/projects/new-neurons/"
+# canonifyURLs = true
+
+title = "New Neurons"
+copyright = "&copy; 2019 New Neurons Neurosurgery Institute"
+
+[params]
+  author = "Felder Digital"
+  description = ""
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"

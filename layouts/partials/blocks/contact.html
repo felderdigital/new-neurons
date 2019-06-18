@@ -1,0 +1,21 @@
+<section class="contact-section">
+	<div class="container-fluid">
+		<div class="row row-no-padding gray">
+			<div class="column column-25"></div>
+			<div class="column column-50">
+				{{- with .Params.contact_title -}}<h2 class="uppercase">{{ markdownify . }}</h2>{{- end -}}
+				{{- with .Params.contact_text_1 -}}<p class="p-padding">{{ markdownify . }}{{- end -}}
+				{{- with .Params.contact_phone -}}&nbsp;<a href="tel:{{ markdownify . }}">{{ markdownify . }}</a>{{- end -}}
+				{{- with .Params.contact_text_2 -}}<br />{{ markdownify . }}{{- end -}}</p>
+				<form id="contactform" action="//formspree.io/jimi.radabaugh@gmail.com" method="POST">
+					<input type="text" name="name" placeholder="Name">
+					<input type="email" name="_replyto" placeholder="Email">
+					<input type="text" name="phone" placeholder="Phone">
+					<textarea name="message" placeholder="Note to the Doctor"></textarea>
+					<input type="submit" value="Send">
+				</form>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</section>
