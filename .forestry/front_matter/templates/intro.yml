@@ -1,14 +1,13 @@
 ---
 label: Intro
 hide_body: true
-is_partial: true
 display_field: heading
 fields:
 - type: text
   name: intro_heading
   label: Intro Title
-  description:
+  description: 
 - type: textarea
   name: intro_paragraph
   label: Intro Text
-  description:
+  description: 

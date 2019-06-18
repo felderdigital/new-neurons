@@ -1,22 +1,21 @@
 ---
 label: Contact
 hide_body: true
-is_partial: true
 display_field: heading
 fields:
 - type: text
   name: contact_title
   label: Contact Title
-  description:
+  description: 
 - type: textarea
   name: contact_text_1
   label: Contact Text 1
-  description:
+  description: 
 - type: textarea
   name: contact_text_2
   label: Contact Text 2
-  description:
+  description: 
 - type: text
   name: contact_phone
   label: Contact Phone
-  description:
+  description: 
